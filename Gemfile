@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
-
-
+#using devise for authentication and user accounts
+gem 'devise'
+#for twitter UI components
+gem 'bootstrap-sass', '~> 3.3.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
@@ -44,4 +46,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
