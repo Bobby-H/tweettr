@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'post/create'
 
-  root 'pages#index'
+  root 'pages#home'
   #define routes for pages
   get 'pages/home' => 'pages#home'
   get 'pages/explore' => 'pages#explore'
